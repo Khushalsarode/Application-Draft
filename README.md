@@ -1,16 +1,20 @@
 # Outreachy Final Application Draft
+---
 ### Wikimedia Foundation
-### Proposal for Create Scribe-Data Wiktionary based translation and synonym commands
+### Proposal  
+### Title: Create Scribe-Data Wiktionary based translation and synonym commands
 
+---
 **Name:** Khushal Sarode  
 **Email:** khushalsarode.in@gmail.com  
 **Location:** Jalgaon, Maharashtra, India  
-**IRC nickname on Matrix:** khushalsarode
-**LinkedIn:** [Khushal Sarode](https://www.linkedin.com/in/khushalsarode/)  
-**Time Zone:** UTC+5:30 IST
-**Availability:** Available Full Time
+**IRC nickname on Matrix:** khushalsarode <br>
+**LinkedIn:** [Khushal Sarode](https://www.linkedin.com/in/khushalsarode/)  <br>
+**Time Zone:** UTC+5:30 IST <br>
+**Availability:** Available Full Time <br>
 **Time Commitments:** Currently I am available full time to work also hunting Full time opportunity if any sudden course of action took place will be communicating with you.
 
+----
 ## Time Commitments on Initial Application
 
 You listed the following time commitments on your initial application. Please make sure they are correct and reflect your current time commitments:
@@ -21,97 +25,179 @@ If any time commitments (like a job or school) are missing, please answer "no." 
 #### **Response**:
 > [x]Yes / No
 ---
-
-## Past Experience with This Community
-This
-
-#### **Response**:
-> Example: "As a frequent user of Wikimedia projects like Wikipedia and Wiktionary, I’ve gained valuable insight into their open-source mission and functionality. Additionally, I've contributed to open-source initiatives within Wikimedia by [describe contributions, e.g., code, documentation, testing, etc.]. This involvement has helped me understand the community standards and the technical aspects related to translation tools and synonym resources."
+## Abstract
+`Scribe-org` is an open source project which is a community of language enthusiasts, learners and developers creating tools to help people communicate with confidence.
+It is an tool being developed for interested language learners with creative way, this is available for IOS ecosystem. The application provide an real time grammer, translations over keyboard which support to serval most used languages and its exanding too. The project Aim to breach the langauge barrier gap effectively by utilizing the data from wikidata by processing it.  
+where as an subpart of project is `Scribe-Data` is a convenient command-line interface (CLI) for extracting and formatting language data from Wikidata and Wikipedia. Functionality includes allowing users to list, download, and manage language data directly from the terminal.
 
 ---
+## Past Experience with This Community
+I have benn working on Scribe-data project from pass few days and its quite interesting! Mentors are very friendly, guide when ever asked for help, listen to suggestions.
+Also the contributors and quite friendly and share ideas with interacting each other. This is an first time i've gained such a experience with open source community project mission and objective. Working side to side with such fantastic contributors and maintainers i've been learning a lot. Before this i had never used an sparql query language but in this project while contributing i understand and contributed queries written in it, worked on some action flow to make task automate over repository.
+Also worked on project documentation build using sphnix and learned about documentation and how its implemented for project like this one. Fix some error and build documentation to report broken link to maintainer/contributors.
+This is just beginning there is more yet to learn and build! 😊😊
 
+---
 
 ## Mentors
 
 - Andrew McAllister  
 - wkyoshida
 - Henrik Thomasson
+---
 
+##  Experience and Contributions
+As applicatant selected for initail contribution, Have done some contibution in project code base as follows:
+- 1. PR: https://github.com/scribe-org/Scribe-Data/pull/425
+- Detail: Added nouns sparql query for latvian langauge by quering against nouns entity on wikidata. Query have been tested and executed on Wikimedia query editor.
 
+- 2. PR: https://github.com/scribe-org/Scribe-Data/pull/272
+- Detail: The issue was to expand the kurmanji verb entity by querying the wikidata language entity. To expand kurmanji verbs it has been queried against the other language entity for wikidata in sparql query language on wikidata query editor.
+
+- 3. PR: https://github.com/scribe-org/Scribe-Data/pull/317
+- Detail: Created and expanded data queries for kurmanji language on query.wikidata.org query service by wikidata, where preposition, verbs, nouns, adverbs and adjective for kurmanji language 'ku' where queried against english language entity and entity entries for grammatical parts to get as much as possible data for language to be process by scribe data.
+
+- 4. PR: https://github.com/scribe-org/Scribe-Data/pull/433
+- Detail: Created an Github action workflow to check documentation broken link and show broken link list for debugging and further work:
+   1. Installs the necessary dependencies from requirements.txt
+   2. Runs the Sphinx linkcheck builder to identify broken links.
+   3. The results are displayed, and if broken links are found, the action will fail.
+---
+## Past Experience with Open Source Software
+- Participated and completed girlscript summer of code 24 by contributing to some projects
+- Participated and completed hacktoberfest by raising four PR 
+- Contributed to tsparticle repository with 404 error theme pages
+- Contributed to illa cloud and no code platform
+- Contributed and written blogs for aviyel under aviyelXhacktoberfest22
+- Current participant and contributor to girlscript summer of code extended 2024
+---
 
 ## Outreachy Internship Project Timeline
 
-### Week 1-2: Initial Setup and Familiarization
-- **Task**: 
-  - Get familiar with the Scribe community's codebase and Scribe-Data CLI structure.
-  - Review Wiktionary and Wikidata resources and existing SPARQL queries.
-  - Attend the initial bi-weekly sync to introduce yourself and discuss the project scope.
-- **Goal**: 
-  - Complete environment setup, understand data sources, and explore command-line architecture.
-  - Collaborate with mentors to finalize objectives and clarify any technical requirements.
+## Phase I: Research and Designing  
+**WEEK 1 + WEEK 2**
 
-### Week 3-4: Development of Translation Functionality
-- **Task**: 
-  - Develop initial translation functionality for the Scribe-Data CLI to parse translations for a selected language from Wiktionary.
-  - Write SPARQL queries with mentor support and focus on formatting data for Scribe end users.
-  - Attend Saturday sync to present progress and gather feedback.
-- **Goal**: 
-  - Ensure data output is properly formatted for integration with Scribe applications (iOS/Android).
-  - Draft initial unit tests to validate translation outputs.
+- **Week 1:** Research and Analysis of Wiktionary Data  
+  **Objective:** Gain an in-depth understanding of Wiktionary’s structure and relevant SPARQL queries.  
+  - Review existing documentation on Scribe-Data’s architecture, workflows, and its interaction with Wikidata.  
+  - Discuss project expectations and milestones with mentors.  
+  - Identify key data structures in Wiktionary relevant for translation and synonym extraction.  
+  - Analyze how Wiktionary organizes translation and synonym data across multiple languages.  
 
-### Week 5-6: Development of Synonym Functionality
-- **Task**: 
-  - Implement the synonym functionality in Scribe-Data, focusing on parsing and formatting synonym data from Wiktionary.
-  - Write SPARQL queries to support synonym extraction and refine data outputs for downstream applications.
-  - Gather feedback from mentors and the community in the bi-weekly sync.
-- **Goal**: 
-  - Synonym command should be functional and meet requirements for Scribe applications.
-  - Continue expanding unit tests to cover edge cases and ensure reliable functionality.
+- **Week 2:** Framework Designing  
+  **Objective:** Outline the data fields needed for translations and synonyms, focusing on multilingual support.  
+  - Design a framework for parsing Wiktionary dumps, ensuring compliance with its licensing requirements.  
+  - Begin drafting potential queries and scripts to interact with Wiktionary data.  
 
-### Week 7-8: Optimization and Efficiency Improvements
-- **Task**: 
-  - Optimize parsing processes for both translation and synonym commands to handle larger datasets efficiently.
-  - Implement caching or other efficiency techniques to ensure smooth CLI performance.
-  - Run performance tests to benchmark parsing speeds and review results with mentors.
-- **Goal**: 
-  - Improved performance for large Wiktionary dumps, minimizing memory usage and execution time.
-  - Unit tests refined to cover performance metrics.
+---
 
-### Week 9: Advanced Testing and Validation
-- **Task**: 
-  - Complete comprehensive unit tests for all functionalities (translation and synonym commands).
-  - Conduct regression testing to ensure previous changes don’t introduce breaking changes.
-  - Review and validate tests with mentors.
-- **Goal**: 
-  - Ensure all commands are covered by tests to catch future breaking changes.
-  - Test outputs formatted correctly for both CLI and end-user applications.
+## Phase II: Translations  
+**WEEK 3 + WEEK 4**
 
-### Week 10: Documentation and Data Compliance
-- **Task**: 
-  - Write detailed documentation for both users and developers on using and extending the new CLI commands.
-  - Collaborate with mentors to update data notices to ensure compliance with Wiktionary’s licensing.
-- **Goal**: 
-  - Complete documentation to facilitate future development and user adoption.
-  - Ensure all data outputs comply with licensing requirements.
+- **Week 3:** Develop Translation Command Framework  
+  **Objective:** Build the foundation for the translation command.  
+  - Start developing SPARQL queries/.py scripts to fetch translations from Wiktionary for various languages.  
+  - Implement a basic translation command using this data within Scribe-Data.  
+  - Create a structure for storing translations in the appropriate Scribe-Data format.  
+  - Expand the translation command to handle more languages and complex translation cases.  
 
-### Week 11: Final Improvements and Aspirational Goals
-- **Task**: 
-  - Make final adjustments and improvements based on testing feedback.
-  - Explore any aspirational goals set with mentors (e.g., additional language support or advanced query features).
-  - Attend the final bi-weekly sync to demonstrate a near-complete project.
-- **Goal**: 
-  - Ensure project is feature-complete with optional enhancements if feasible.
-  - All functionality should be stable and ready for broader usage.
-    
-### Week 12: Project Wrap-Up and Presentation
-- **Task**: 
-  - Finalize all code, documentation, and tests.
-  - Present the final project to the Scribe community, gathering feedback and suggestions.
-  - Prepare a summary report for Outreachy, detailing project outcomes and any future recommendations.
-- **Goal**: 
-  - Successfully conclude the project with a completed and tested CLI for translations and synonyms.
-  - Receive final approval from mentors and celebrate project completion with the community!
-    
+- **Week 4:** Refining Translation Commands and Testing  
+  **Objective:** Optimize and test the translation functionality.  
+  - Optimize the SPARQL queries for efficiency, ensuring they handle large-scale datasets without performance issues.  
+  - Begin unit testing to ensure the accuracy of translation outputs.  
+  - Review progress with mentors to refine the approach.  
+  - Develop additional unit tests to cover edge cases and language-specific nuances.  
+  - Ensure translations are formatted properly for use within Scribe-iOS and Android apps.  
+
+---
+
+## Phase III: Synonyms  
+**WEEK 5 + WEEK 6**
+
+- **Week 5:** Develop Synonym Command Framework  
+  **Objective:** Begin work on synonym extraction from Wiktionary.  
+  - Analyze the structure of synonym data in Wiktionary.  
+  - Draft SPARQL queries to fetch synonyms from Wiktionary for different languages.  
+  - Implement the synonym command within Scribe-Data, ensuring it interacts correctly with the translation command.  
+  - Expand the synonym command to support more languages and complex synonym relationships.  
+
+- **Week 6:** Integration and Testing of Synonym Commands  
+  **Objective:** Finalize synonym extraction and ensure its functionality.  
+  - Refine SPARQL queries and optimize their performance to handle large datasets.  
+  - Begin writing and implementing unit tests for the synonym command, focusing on edge cases like homonyms and multiple meanings to ensure synonym data is accurate and efficiently retrieved.  
+  - Test the integration of synonym data with other components of Scribe-Data, ensuring compatibility with Scribe-iOS and Scribe-Android apps.  
+
+---
+
+## Phase IV: Enhancements in Translations and Synonyms Functionality  
+**WEEK 7 + WEEK 8 + WEEK 9**
+
+- **Week 7:** Parsing and Data Processing Improvements  
+  **Objective:** Improve the efficiency of data parsing and processing.  
+  - Work on parsing Wiktionary dumps efficiently, ensuring that large datasets can be processed quickly.  
+  - Implement improvements to the overall data processing pipeline, focusing on memory management and speed.  
+  - Begin documenting the workflow for parsing Wiktionary data and integrating it into Scribe-Data’s architecture.  
+  - Review the progress with mentors and make necessary adjustments.  
+
+- **Week 8:** Expanding Language Support for Commands  
+  **Objective:** Broaden the scope of languages supported by both translation and synonym commands.  
+  - Add support for additional languages based on priority and user demand.  
+  - Refactor existing code to ensure it is adaptable for various language structures (e.g., agglutinative vs. inflectional languages).  
+  - Continue to improve unit tests, focusing on new languages and ensuring no regressions in functionality.  
+  - Test the expanded language support in collaboration with Scribe-iOS and Scribe-Android teams.  
+
+- **Week 9:** Bug Fixes and Optimization  
+  **Objective:** Ensure stability, fix bugs, and optimize performance.  
+  - Identify and fix any bugs encountered during testing and user feedback sessions.  
+  - Perform extensive code review and refactoring, focusing on code readability and maintainability.  
+  - Optimize the performance of SPARQL queries and ensure smooth integration with the rest of the Scribe suite.  
+  - Finalize documentation for the translation and synonym commands, ensuring it is easy to follow for future contributors.  
+
+---
+
+## Phase V: Testing and Platform Integration  
+**WEEK 10 + WEEK 11**
+
+- **Week 10:** Final Testing and Cross-Platform Integration  
+  **Objective:** Conduct full-scale testing and integration with Scribe-iOS, Android, and Desktop apps.  
+  - Perform end-to-end testing of both the translation and synonym commands within the broader Scribe ecosystem.  
+  - Ensure that the commands function seamlessly across Scribe-iOS, Android, and Desktop.  
+  - Collaborate with app developers to test how the data is consumed on different platforms and make necessary adjustments.  
+  - Fix any remaining bugs and improve the user experience based on feedback.  
+
+- **Week 11:** Final Testing and Cross-Platform Integration  
+  **Objective:** Conduct full-scale testing and integration with Scribe-iOS, Android, and Desktop apps.  
+  - Perform end-to-end testing of both the translation and synonym commands within the broader Scribe ecosystem.  
+  - Ensure that the commands function seamlessly across Scribe-iOS, Android, and Desktop.  
+  - Collaborate with app developers to test how the data is consumed on different platforms and make necessary adjustments.  
+  - Fix any remaining bugs and improve the user experience based on feedback.  
+
+---
+
+## Phase VI: Conclusion  
+**WEEK 12 + WEEK 13**
+
+- **Week 12:** Final Enhancements and Documentation  
+  **Objective:** Polish the project and finalize all documentation.  
+  - Implement final enhancements based on user testing and mentor feedback.  
+  - Complete the technical documentation for both translation and synonym commands, including code comments and usage examples.  
+  - Write a user-facing guide for integrating these commands into Scribe’s apps.  
+  - Conduct final performance tests to ensure everything runs efficiently.  
+
+- **Week 13:** Project Wrap-Up and Final Submission  
+  **Objective:** Finalize all deliverables and ensure smooth project closure.  
+  - Share the final version of the project with the broader Scribe community for review.  
+  - Conduct a demo or presentation of the translation and synonym commands to mentors and other stakeholders.  
+  - Engage with the community to gather feedback and ensure future maintainability.  
+  - Document community feedback for possible future improvements.  
+  - Address any last-minute feedback or minor issues.  
+  - Ensure all contributions are well-documented and prepared for handover to the Scribe community.  
+  - Participate in a final retrospective meeting with mentors to reflect on the project and learnings.  
+  - Celebrate project completion and prepare for future contributions to Scribe or similar open-source projects.  
+  - Write a blog article summarizing all work done.  
+
+---
+
 ## Afterward of Internship
 - As a part of community and fully aware of implementation will continue contributions to Scribe-Org.
 - Actively participate in the Scribe and Wikimedia community.
@@ -124,12 +210,13 @@ This
 - Regular communication with mentors and other community members.
 - I love to help fellow peers who really like to do something, will help them to make learn and aware about this Extra curriculam impactfull things!
 
-
+---
 ## About Me
 I am Recently Graduated Student with Bachelor's degree in Computer Science & Engineering from G H Raisoni Insitute Of Engineering & Business Management, North Maharashtra University, Jalgaon. Since then i am on learning quest and upskilling my self to get full time job in information technology. I keen interest are into Python, Java, cloud technology, Devops, openSource contributions along side I am trying to learn ReactJS. 
 I have participated and won some hackathons Hosted by MLH and continue to do so in free time, this help me learn and understand the implementation and learning of new things and integration while building.
 
-
+---
 ## How did I learn about Outreachy?
 Ecosystem over here is only about therotical learning and examination score! As the location of my education and college are in the city which is not so well technology aware, we can say most of the peoples here are Farmers, small scale business and factories. But the issue of staying in touch with latest tech updates and connection and sharing was smoothly solved with linkedin and internet. There over linkedin i got to know about most of opensource programs, after that i searched and viewed some videos over youtube regarding the same. I was not confident enough to apply and Self-doubt will i be able to do this. Then last time I applied for the initial application but it was rejected, but again this fall i applied and got main `you are selected as intern!` This was quite an experience and milestone for me!
 
+---
