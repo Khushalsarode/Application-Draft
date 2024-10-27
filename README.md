@@ -31,16 +31,17 @@
 **March 21st and Later**
 
 ### Celebrations
-- Continue contributions to Scribe-Org.
-- Actively participate in the Scribe and Wikimedia community and explore Pydata communities.
+- As a part of community and fully aware of implementation will continue contributions to Scribe-Org.
+- Actively participate in the Scribe and Wikimedia community.
 - Maintain code and documentation, and mentor beginners.
-
 ---
-## Other Deliverables during the Internship
 
-- Weekly blog posts on internship progress/experience.
+## Other Deliverables during the Internship
+- Weekly blog posts on internship progress/experience/Tasked/feature implemented.
 - Blog posts about experiences with the open-source community and the Scribe-Org.
 - Regular communication with mentors and other community members.
+- I love to help fellow peers who really like to do something, will help them to make learn and aware about this Extra curriculam impactfull things!
+
 
 ## About Me
 I am Recently Graduated Student with Bachelor's degree in Computer Science & Engineering from G H Raisoni Insitute Of Engineering & Business Management, North Maharashtra University, Jalgaon. Since then i am on learning quest and upskilling my self to get full time job in information technology. I keen interest are into Python, Java, cloud technology, Devops, openSource contributions along side I am trying to learn ReactJS. 
