@@ -48,20 +48,20 @@ This is just beginning there is more yet to learn and build! 😊😊
 
 ##  Experience and Contributions - INITIAL CONTRIBUTION
 As applicatant selected for initail contribution, Have done some contibution in project code base as follows:
-- 1. PR: https://github.com/scribe-org/Scribe-Data/pull/425
-- Detail: Added nouns sparql query for latvian langauge by quering against nouns entity on wikidata. Query have been tested and executed on Wikimedia query editor.
+- PR: https://github.com/scribe-org/Scribe-Data/pull/425 <br>
+Detail: Added nouns sparql query for latvian langauge by quering against nouns entity on wikidata. Query have been tested and executed on Wikimedia query editor.
 
-- 2. PR: https://github.com/scribe-org/Scribe-Data/pull/272
-- Detail: The issue was to expand the kurmanji verb entity by querying the wikidata language entity. To expand kurmanji verbs it has been queried against the other language entity for wikidata in sparql query language on wikidata query editor.
+- PR: https://github.com/scribe-org/Scribe-Data/pull/272 <br>
+Detail: The issue was to expand the kurmanji verb entity by querying the wikidata language entity. To expand kurmanji verbs it has been queried against the other language entity for wikidata in sparql query language on wikidata query editor.
 
-- 3. PR: https://github.com/scribe-org/Scribe-Data/pull/317
-- Detail: Created and expanded data queries for kurmanji language on query.wikidata.org query service by wikidata, where preposition, verbs, nouns, adverbs and adjective for kurmanji language 'ku' where queried against english language entity and entity entries for grammatical parts to get as much as possible data for language to be process by scribe data.
+- PR: https://github.com/scribe-org/Scribe-Data/pull/317 <br>
+Detail: Created and expanded data queries for kurmanji language on query.wikidata.org query service by wikidata, where preposition, verbs, nouns, adverbs and adjective for kurmanji language 'ku' where queried against english language entity and entity entries for grammatical parts to get as much as possible data for language to be process by scribe data.
 
-- 4. PR: https://github.com/scribe-org/Scribe-Data/pull/433
-- Detail: Created an Github action workflow to check documentation broken link and show broken link list for debugging and further work:
-   1. Installs the necessary dependencies from requirements.txt
-   2. Runs the Sphinx linkcheck builder to identify broken links.
-   3. The results are displayed, and if broken links are found, the action will fail.
+- PR: https://github.com/scribe-org/Scribe-Data/pull/433 <br>
+  Detail: Created an Github action workflow to check documentation broken link and show broken link list for debugging and further work: <br>
+  Installs the necessary dependencies from requirements.txt <br>
+  Runs the Sphinx linkcheck builder to identify broken links. <br>
+  The results are displayed, and if broken links are found, the action will fail. <br>
 ---
 ## Past Experience with Open Source Software
 - Participated and completed girlscript summer of code 24 by contributing to some projects
