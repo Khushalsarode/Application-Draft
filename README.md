@@ -46,7 +46,7 @@ This is just beginning there is more yet to learn and build! 😊😊
 - Henrik Thomasson
 ---
 
-##  Experience and Contributions
+##  Experience and Contributions - INITIAL CONTRIBUTION
 As applicatant selected for initail contribution, Have done some contibution in project code base as follows:
 - 1. PR: https://github.com/scribe-org/Scribe-Data/pull/425
 - Detail: Added nouns sparql query for latvian langauge by quering against nouns entity on wikidata. Query have been tested and executed on Wikimedia query editor.
@@ -71,6 +71,21 @@ As applicatant selected for initail contribution, Have done some contibution in 
 - Contributed and written blogs for aviyel under aviyelXhacktoberfest22
 - Current participant and contributor to girlscript summer of code extended 2024
 ---
+
+## Past Experience with Other Communities
+I have also been involved in other free software communities such as Girlscript summer of code which is an open source program just pretty alike google summer of code, they have project mainntainers, contributors, mentors, and core team who carry out program of duration three month. the program is score based which reflect on leaderboard, score based on work done in contibution divided into 3 levels. I had participated as contributed and raised request which fixed documentation, code, and added some features. Along with this they had arranged postman badge challenege which was also compeleted resulting in extra points. 
+
+---
+
+## Relevant Projects
+ - **Project**: [SkyScribe Weather Forecast CLI based tool](https://github.com/Khushalsarode/SkyScribe-Weather-Forecast-clitool)
+   - **Description:** An Cli based application tool for retriving an weather information of specific location using commands.
+   - Used click package for creating command and command argument for project tool execution, logging for recording log while making request or requesting data
+   - created an module and deployed at pypi using setuptools (setup.py file), we can install tool using pip and used the command line to get weather data. 
+   - Skills gained:  Python programming, Logging of logs, API handling, creating and deploying packages modules, etc
+
+---
+
 
 ## Outreachy Internship Project Timeline
 
